@@ -1,56 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WidyaBlog</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Analisis pengeluaran mahasiswa untuk perawatan handphone dan pola penggunaannya. Studi tentang biaya paket data, pulsa, dan servis smartphone mahasiswa.">
+    <meta name="keywords" content="biaya handphone mahasiswa, perawatan smartphone, paket data, pulsa, servis hp, pengeluaran mahasiswa, ekonomi digital">
+    <meta name="author" content="Ni Putu Ayu Widya Pratiwi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Analisis Pengeluaran Mahasiswa untuk Perawatan Handphone">
+    <meta property="og:description" content="Studi mendalam tentang pola penggunaan dan biaya perawatan handphone mahasiswa">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://widya-blog.vercel.app">
+    <meta property="og:image" content="img/grafik1.png">
+    <meta property="article:published_time" content="2025-12-15T00:00:00+08:00">
+    <meta property="article:author" content="Ni Putu Ayu Widya Pratiwi">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Analisis Pengeluaran Mahasiswa untuk Perawatan Handphone">
+    <meta name="twitter:description" content="Studi tentang pola penggunaan dan biaya perawatan handphone mahasiswa">
+    
+    <title>WidyaBlog - Analisis Pengeluaran Mahasiswa untuk Perawatan Handphone | Ni Putu Ayu Widya Pratiwi</title>
+    
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="canonical" href="https://widya-blog.vercel.app">
 </head>
 <body>
-    <header class="nav">
+    <header class="nav" role="banner">
         <h1>WidyaBlog</h1> 
-        <input type="text" placeholder="Search...">
+        <div class="search-wrapper">
+            <input type="search" placeholder="Search..." aria-label="Search blog posts">
+        </div>
     </header>
 
-    <main class="main-content">
-        <article class="blog-post">
-            <h2>ANALISIS PENGELUARAN MAHASISWA UNTUK PERAWATAN HANDPHONE & POLA PENGGUNAANNYA</h2>
-            <p>Published by <span>Ni Putu Ayu Widya Pratiwi</span> on December 14, 2025</p>
-            <div class="blog">
-                <a href="blog.html">
-                    <img src="img/perawatan handphone.jpg" alt="">
+    <main class="main-content" role="main">
+        <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
+            <h2 itemprop="headline">ANALISIS PENGELUARAN MAHASISWA UNTUK PERAWATAN HANDPHONE & POLA PENGGUNAANNYA</h2>
+            <p class="post-meta">
+                Published by
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                     <span itemprop="name">Ni Putu Ayu Widya Pratiwi</span>
+                </span> 
+                on <time itemprop="datePublished" datetime="2025-12-13">December 14, 2025</time>
+            </p>
+            <div class="blog" itemprop="articleBody">
+                <a href="blog.html" aria-label="Read full article about weather impact on demand">
+                    <img src="img/perawatan handphone.jpg" alt="Cover Blog" itemprop="image" loading="lazy">
                     <p>Penelitian ini menganalisis pengeluaran mahasiswa terkait perawatan handphone, seperti biaya paket data, pulsa, dan service. Penelitian ini dilakukan melalui observasi menggunakan Google Form untuk melihat pola konsumsi dan bagaimana keputusan mahasiswa dipengaruhi oleh teori ekonomi, terutama permintaan, penawaran, dan elastisitas harga.</p>
                     <p class="link">Continue Reading <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
             </div>
         </article>
-        <article class="contact">
+
+        <aside class="contact" role="complementary">
             <div class="head-content">
                 <div class="content">
-                    <p>Hallo,</p>
                     <h1>Ni Putu Ayu Widya Pratiwi</h1>
                 </div>
-                <img src="img/profile2.jpeg" alt="">
+                <img src="img/profile2.jpeg" alt="Profile photo of Ni Putu Ayu Widya Pratiwi" loading="lazy">
             </div>
-            <p class="description"">Saya Ni Putu Ayu Widya Pratiwi merupakan mahasiswa Universitas Primakara yang menyusun kajian ini sebagai salah satu bentuk pemenuhan tugas mata kuliah Penghantar Ilmu Ekonomi. Kajian ini berfokus pada analisis biaya perawatan handphone mahasiswa dan pola penggunaannya, mengingat handphone telah menjadi kebutuhan utama dalam menunjang berbagai aktivitas perkuliahan, seperti pembelajaran daring, komunikasi, pencarian informasi, hingga hiburan. Pemilihan topik ini didasari oleh tingginya intensitas penggunaan handphone di kalangan mahasiswa yang secara langsung berdampak pada pengeluaran rutin maupun pengeluaran tidak terduga. Melalui analisis ini, penulis berupaya mengaitkan kondisi nyata yang dialami mahasiswa dengan konsep-konsep dasar ekonomi, seperti permintaan, penawaran, dan elastisitas harga.</p>
-            <div class="social-media">
+            <p class="description">Saya Ni Putu Ayu Widya Pratiwi merupakan mahasiswa Universitas Primakara yang menyusun kajian ini sebagai salah satu bentuk pemenuhan tugas mata kuliah Penghantar Ilmu Ekonomi. Kajian ini berfokus pada analisis biaya perawatan handphone mahasiswa dan pola penggunaannya, mengingat handphone telah menjadi kebutuhan utama dalam menunjang berbagai aktivitas perkuliahan, seperti pembelajaran daring, komunikasi, pencarian informasi, hingga hiburan. Pemilihan topik ini didasari oleh tingginya intensitas penggunaan handphone di kalangan mahasiswa yang secara langsung berdampak pada pengeluaran rutin maupun pengeluaran tidak terduga. Melalui analisis ini, penulis berupaya mengaitkan kondisi nyata yang dialami mahasiswa dengan konsep-konsep dasar ekonomi, seperti permintaan, penawaran, dan elastisitas harga.</p>
+            <nav class="social-media" aria-label="Social media links">
                 <h4>Let's Connect</h4>
                 <div class="icons">
-                    <a href="https://www.instagram.com/dyaaa_prtwi/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                    
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ayu917822@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> Gmail</a>
+                    <a href="https://www.instagram.com/dyaaa_prtwi/" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram profile">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ayu917822@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Send email">
+                        <i class="fa-regular fa-envelope" aria-hidden="true"></i> Gmail
+                    </a>
                 </div>
-            </div>
-        </article>
+            </nav>
+        </aside>
     </main>
-    <footer>
+
+    <footer role="contentinfo">
         <p class="name">Widya</p>
-        <div class="footer-icons">
-            <a href="https://www.instagram.com/reinasav/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/reina-savitri-354069392/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=niputureinasavitri28@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
-        </div>
+        <nav class="footer-icons" aria-label="Footer social media links">
+            <a href="https://www.instagram.com/dyaaa_prtwi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ayu917822@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            </a>
+        </nav>
     </footer>
 </body>
 </html>
